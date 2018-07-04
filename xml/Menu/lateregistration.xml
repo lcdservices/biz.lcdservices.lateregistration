@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/admin/lateregistration</path>
+     <title>Late Registration</title>
+     <desc>Late Registration</desc>
+     <page_callback>CRM_Admin_Form_Setting_lateregistration</page_callback>
+     <adminGroup>System Settings</adminGroup>
+     <icon>admin/small/rela_type.png</icon>
+     <weight>36</weight>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
